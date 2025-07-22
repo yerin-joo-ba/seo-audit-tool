@@ -42,25 +42,6 @@
 
 <br>
 
-## ⚙️ 설치 및 실행 방법
-
-1.  **저장소 클론**
-    ```bash
-    git clone [https://github.com/yerin-joo-ba/SEO_Tools.git](https://github.com/yerin-joo-ba/SEO_Tools.git)
-    cd YourRepoName
-    ```
-
-2.  **필요 라이브러리 설치**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **프로그램 실행**
-    ```bash
-    python main_app.py
-    ```
-
-<br>
 
 ## 📂 프로젝트 구조
 
