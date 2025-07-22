@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO QA Report - {{TICKET_NAME}}</title>
+  <link rel="stylesheet" href="report_style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <header class="report-header">
+      <h2>SEO QA Report - {{TICKET_NAME}}</h2>
+      <div class="button-group">
+        <button class="export-button" onclick="exportStaticReport()">
+          💾 Export Static HTML
+        </button>
+        <button class="export-button export-excel" onclick="exportToExcel()">
+          📊 Export to Excel
+        </button>
+      </div>
+    </header>
+    <nav class="tabs-wrapper">
+      <button class="scroll-arrow left">&lt;</button>
+      <div class="tab-container">
+        {{TAB_BUTTONS}}
+      </div>
+      <button class="scroll-arrow right">&gt;</button>
+    </nav>
+    <section class="tab-contents">
+      {{TAB_CONTENTS}}
+    </section>
+  </div>
+
+  <script src="sheetjs.min.js"></script>
+  <script src="report_script.js"></script>
+</body>
+</html>

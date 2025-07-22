@@ -1,0 +1,32 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; padding: 10px; font-size: 0.85em; }
+.main-container { max-width: 1200px; margin: 0 auto; padding: 0 10px; }
+.report-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #3498db; padding-bottom: 6px; margin-bottom: 10px; }
+h2 { color: #2c3e50; margin: 0; font-size: 1.4em; text-align: center; flex-grow: 1; }
+.button-group { display: flex; gap: 5px; }
+.export-button { padding: 5px 12px; font-size: 0.8em; cursor: pointer; border: 1px solid #28a745; background-color: #28a745; color: white; border-radius: 4px; white-space: nowrap; }
+.excel-button { border-color: #1a6a32; background-color: #1a6a32; }
+.tabs-wrapper { position: relative; margin-bottom: 10px; }
+.tab-container { display: flex; flex-wrap: nowrap; overflow-x: hidden; scroll-behavior: smooth; border-bottom: 1px solid #ccc; margin: 0 30px; padding-bottom: 1px; }
+.tab-button { display: inline-block; flex-shrink: 0; padding: 8px 12px; margin-right: 3px; border: 1px solid #ddd; border-bottom: none; border-radius: 3px 3px 0 0; background-color: #e9ecef; cursor: pointer; font-weight: bold; color: #555; white-space: nowrap; font-size: 0.8em; }
+.tab-button.active { background-color: #3498db; color: white; border-color: #3498db; }
+.scroll-arrow { position: absolute; top: 0; height: 33px; width: 30px; background-color: #f0f0f0; border: 1px solid #ccc; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.2em; z-index: 10; user-select: none; }
+.scroll-arrow.left { left: 0; }
+.scroll-arrow.right { right: 0; }
+.tab-content { display: none; padding: 12px; border: 1px solid #ddd; border-top: none; background-color: white; }
+.tab-content.active { display: block; }
+h3 { color: #34495e; margin-top: 15px; margin-bottom: 8px; background-color: #ecf0f1; padding: 5px 8px; border-radius: 3px; font-size: 1.1em; }
+table { border-collapse: collapse; width: 100%; table-layout: fixed; margin-top: 8px; margin-bottom: 15px; }
+.seo-table td h1 { font-size: 1em; font-weight: normal; margin: 0; }
+th, td { border: 1px solid #dfe6e9; padding: 8px; text-align: left; vertical-align: top; overflow-wrap: break-word; } /* <<<< 수정 */
+th { background-color: #e9eff2; font-weight: bold; }
+th.sortable { cursor: pointer; }
+th.sortable:hover { background-color: #ddeeff; }
+.sort-icon { float: right; font-style: normal; color: #999; }
+td.factor-name { font-weight: bold; width: 150px; } /* <<<< 수정 */
+th.len-col, td.len-col { width: 70px; text-align: center; } /* <<<< 수정 */
+.editable-field { border: 1px solid #ced4da; padding: 4px; min-height: 20px; outline: none; border-radius: 2px; background-color: #fff; width: 100%; box-sizing: border-box; font-size: 1em; }
+tr:nth-child(even) { background-color: #f8fbfd; }
+.highlight-cell { background-color: #fffacd !important; }
+.alt-table img { max-width: 80px; height: auto; display: block; margin: 3px 0; }
+.alt-comment-toggle { cursor: pointer; user-select: none; border: 1px solid #ccc; border-radius: 4px; text-align: center; padding: 4px; background-color: #f9f9f9; }
+.alt-comment-toggle:hover { border-color: #999; }

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Application Output
+audit_reports/
+
+# Core Logic (Do not upload)
+seo_core.py
