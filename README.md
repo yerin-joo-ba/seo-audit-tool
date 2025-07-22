@@ -1,6 +1,6 @@
 # SEO Audit Automation Tool (SEO 감사 자동화 툴)
 
-반복적인 SEO 감사(Audit) 작업을 자동화하고, 수정 및 공유가 용이한 동적 HTML 리포트를 생성하는 Python GUI 애플리케이션입니다.
+반복적인 SEO 감사(Audit) 작업을 자동화하고, 수정 및 공유가 용이한 동적 HTML 리포트를 생성하는 Python GUI 애플리케이션입니다.  
 엑셀 및 정적 HTML 리포트로 내보내기 기능을 지원합니다.
 
 <br>
