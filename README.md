@@ -7,11 +7,11 @@
 
 ## 🖼️ 스크린샷
 
-![audit tool 실행](assets/image.png)
+![audit tool 실행](assets/image.png?v=3)
 
-![Report 1](assets/image-1.png)
+![Report 1](assets/image-1.png?v=3)
 
-![Report 2](assets/image-2.png)
+![Report 2](assets/image-2.png?v=3)
 
 <br>
 
